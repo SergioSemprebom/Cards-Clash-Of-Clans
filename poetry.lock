@@ -58,6 +58,28 @@ desktop = ["flet-desktop (==0.27.6) ; platform_system == \"Darwin\" or platform_
 web = ["flet-web (==0.27.6)"]
 
 [[package]]
+name = "flet-desktop"
+version = "0.27.6"
+description = "Flet Desktop client in Flutter"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "flet_desktop-0.27.6-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:8519325dd4b8b2c17de61ca38611e1138b213be663dc281ff1f5eeeead1dac9f"},
+    {file = "flet_desktop-0.27.6-py3-none-macosx_12_0_arm64.whl", hash = "sha256:a9bfb08167908d5441dccf8d0227c983ce498dba4046a2a62d3468f3551c7b54"},
+    {file = "flet_desktop-0.27.6-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:7fe007f15bfca7f83671f223eea9ba67bd0d71b12ac362a9406a9f064d301655"},
+    {file = "flet_desktop-0.27.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:fdb1576383965aac1b77c3f5b27fdf521a8a859d9f6f116e5fefe7b410407192"},
+    {file = "flet_desktop-0.27.6-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:7ba0d805b91ae6487ae092a56b6580f9a5a873ed5610ee64414d3f000c772a2c"},
+    {file = "flet_desktop-0.27.6-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:c41371d30a052b16d41cb5ca8f36e2f25c82ddd16a5595376150a97b98307bdf"},
+    {file = "flet_desktop-0.27.6-py3-none-win32.whl", hash = "sha256:f2144d1928f0829c243bbaa18af7bfa06494dce42c081617e5b7727a4f904f61"},
+    {file = "flet_desktop-0.27.6-py3-none-win_amd64.whl", hash = "sha256:bd26a5abc7aaab89b6e4af633037ddaa23d19cd4228bdd21d3f17dbabfe91c42"},
+    {file = "flet_desktop-0.27.6.tar.gz", hash = "sha256:22729c9d22b102ffdfc479d25325f77ca283aa54a1fb6ce56e61db2c1c7e3e06"},
+]
+
+[package.dependencies]
+flet = "0.27.6"
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -196,4 +218,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "f8ab3f3010e654ac43c9837d44e0d783256948838a0466e9b24c135e7e77cccf"
+content-hash = "63c8861761cfbeb640a7cc7cd5da9ea99836279257e27675851b4c1c4ea6816e"
